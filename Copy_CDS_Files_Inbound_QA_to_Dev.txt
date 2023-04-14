@@ -1,0 +1,16 @@
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/COSTING/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/FINANCIAL/COSTING/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/PROFITABILITY/PRICING/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/FINANCIAL/PROFITABILITY/PRICING/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/FINANCIAL/PROFITABILITY/ANALYSIS/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/FINANCIAL/PROFITABILITY/ANALYSIS/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/INVENTORY/BALANCE/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/INVENTORY/BALANCE/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/INVENTORY/TRANSACTION/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/INVENTORY/TRANSACTION/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MANUFACTURING/OVERVIEW/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/MANUFACTURING/OVERVIEW/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MANUFACTURING/MATERIALLIST/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/MANUFACTURING/MATERIALLIST/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MANUFACTURING/QUALITYMANAGEMENT/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/MANUFACTURING/QUALITYMANAGEMENT/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/MANUFACTURING/OPERATIONSLIST/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/MANUFACTURING/OPERATIONSLIST/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/PROCUREMENTANDSPEND/INVOICELINE/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/PROCUREMENTANDSPEND/INVOICELINE/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/PROCUREMENTANDSPEND/PURCHASEORDER/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/PROCUREMENTANDSPEND/PURCHASEORDER/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/PROCUREMENTANDSPEND/PURCHASERECEIPT/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/PROCUREMENTANDSPEND/PURCHASERECEIPT/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/SALE/INVOICELINE/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/SALE/INVOICELINE/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/SALE/ORDERLINE/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/SALE/ORDERLINE/ --recursive
+aws s3 cp s3://agropur-global-nonprod-account-staging-sapco/SAPCO/Inbound/SALE/SHIPLINE/ s3://agropur-global-nonprod-account-dev-sapco/SAPCO/Inbound/SALE/SHIPLINE/ --recursive
+aws s3 ls s3://agropur-global-nonprod-account-dev-sapco
